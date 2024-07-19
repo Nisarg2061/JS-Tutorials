@@ -33,3 +33,16 @@ let result = nums % 2 ? "Odd number" : "Even number";
 
 console.log(result);
 
+// Switch Case
+
+let age = 19;
+
+switch (age) {
+  case 19:
+    console.log("Your age is 19")
+    break;
+
+  default:
+    console.log("Your age is not 19")
+    break;
+}
