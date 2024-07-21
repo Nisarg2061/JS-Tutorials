@@ -53,8 +53,14 @@ for (let i in student){
 
 // printing even numbers
 
-for (let k = 0; k <= 100; k++){
-  if (k % 2 === 0){
-    console.log(k);
-  }
-}
+// for (let k = 0; k <= 100; k++){
+//   if (k % 2 === 0){
+//     console.log(k);
+//   }
+// }
+
+// let c = 0;
+// while (c < 100 && c % 2 == 0) {
+//   console.log(c);
+//   c++;
+// }
