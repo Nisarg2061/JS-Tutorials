@@ -54,3 +54,19 @@ arr.forEach((val) => {
   console.log(val);
 });
 
+// Print square of each number for a given array using forEach
+const calculateSquare = (val) => {
+  console.log(val ** 2);
+}
+
+arr.forEach(calculateSquare);
+
+// Array Methods
+const calculateSquare2 = (val) => {
+  return val ** 2;
+}
+
+/* kind of like forEach but also returns a 
+value for it to get stored into an array */
+const squareArr = arr.map(calculateSquare2);
+console.log(squareArr);
