@@ -1,0 +1,12 @@
+body{
+  background : black;
+}
+#box{
+  background : green;
+  color : white;
+  height : 100px;
+  width : 100px;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 500px;
+}
