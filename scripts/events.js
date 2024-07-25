@@ -1,3 +1,4 @@
+// Script that lets you toggle between Dark and Light Mode
 let curr = "Dark";
 //-----------------------------------------------------------------------------------------//
 const btn = document.querySelector("#modeBtn"); // selecting the button taht toggles mode
@@ -12,7 +13,7 @@ const modes = (mode) => { // Function to change modes
   curr = mode;
 } 
 //-----------------------------------------------------------------------------------------//
-const changeMode = () => { // On clik trigger
+const changeMode = () => { // On click trigger
   if (curr === "Dark") { //Checking the current mode
     modes("Light"); // calling the mode changer
   } else {
