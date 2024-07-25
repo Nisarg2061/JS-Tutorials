@@ -10,3 +10,13 @@ body{
   margin: 10px;
   margin-left: 500px;
 }
+
+.Light{
+  background : white;
+  color : black;
+}
+
+.Dark{
+  background : black;
+  color: white;
+}
